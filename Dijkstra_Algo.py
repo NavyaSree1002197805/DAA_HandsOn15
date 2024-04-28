@@ -19,6 +19,7 @@ def dijkstra(graph, start):
 
     return dist
 
+#Example from the book
 graph = {
     'S': {'T': 10, 'Y': 5, 'Z':7},
     'T': {'X':1, 'Y':2},
